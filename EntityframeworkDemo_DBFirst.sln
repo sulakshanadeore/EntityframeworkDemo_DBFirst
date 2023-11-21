@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33627.172
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityframeworkDemo_DBFirst", "EntityframeworkDemo_DBFirst\EntityframeworkDemo_DBFirst.csproj", "{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstLibrary", "DatabaseFirstLibrary\DatabaseFirstLibrary.csproj", "{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C74CA20E-1502-405D-9712-D02F9086BAFB}
+	EndGlobalSection
+EndGlobal
