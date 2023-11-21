@@ -101,6 +101,7 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EntityFrameworkNotesWithDBFirstSteps.txt" />
     <Content Include="SomeBankDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>SomeBankDB.edmx</DependentUpon>

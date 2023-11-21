@@ -1,0 +1,87 @@
+EntityFramework
+---------------
+
+ORM (Object Relational Mapping) Tool to connect and work with  database servers namely SqlServer.
+
+All the tables will be treated/mapped as objects, ie. Products table-----> Product Class-----> object of class
+						Functions
+						Procedures				via object of class
+
+using System.Data.SqlClient
+
+Tool--->(
+Ado.net---Inserting/Deleting/Updating/Select/Stored Procedures
+Connected --- SqlConnection.sqlCommand.sqldatareader,datatable,datarow,datacolumn,Command Type
+Disconnected---SqlConnection,sqldataAdapter,DataSet,Datatable,datarow,datacolumn,
+)
+
+3 ways that u can connect and work with EF
+1) Database First----
+If your database is ready you can use this approach.
+
+2) Model First-------
+If your database is not ready but the design of the database is final, then use Model First Approach.
+
+
+3) Code First-------
+If you know how to create classes and establish the relationship between classes then use Code First Approach.
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+Database First Approach:
+1) Install Entity Framework
+2) In  the library, add new item "Ado.net Entity Data Model", give it a name.
+3)Specify the server name, select the database name from the dropdown and test the connection.
+4) Select the tables, procedures,functions required. Complete the wizard.
+5) Build the whole solution
+6) Build the library separately.
+7) Add the reference of the library to the MVC Application.& add connectionstring to the web.config from app.config.
+8) Create Model Classes in the Models folder of the MVC Application, looking at the .edmx file structure designer.
+9) Create a Controller with read/write actions.
+10) Create the object of the Entities object (ie name of the connection string) available in the app.config file.
+11) Call the tableobjects appropriately. ReferExample (CustomerController----> Index Action)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
