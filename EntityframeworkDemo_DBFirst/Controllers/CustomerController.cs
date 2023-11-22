@@ -11,7 +11,7 @@ namespace EntityframeworkDemo_DBFirst.Controllers
 {
     public class CustomerController : Controller
     {
-        DatabaseFirstLibrary.SomeBankEntities db = new SomeBankEntities();
+        DatabaseFirstLibrary.SomeBankEntities1 db = new SomeBankEntities1();
         // GET: Customer
         public ActionResult Index()
         {

@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityframeworkDemo_DBFirst", "EntityframeworkDemo_DBFirst\EntityframeworkDemo_DBFirst.csproj", "{571CEAFB-19B0-43EB-AE9D-4BB574EEB3FE}"
+	ProjectSection(ProjectDependencies) = postProject
+		{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71} = {FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DatabaseFirstLibrary", "DatabaseFirstLibrary\DatabaseFirstLibrary.csproj", "{FB9CA3E0-DEBA-4735-8390-24AE8DB71F71}"
 EndProject

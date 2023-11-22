@@ -43,6 +43,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
     <Reference Include="System.Xml.Linq" />
@@ -54,62 +55,63 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ASPStateTempApplication.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
     <Compile Include="ASPStateTempSession.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="Customer.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
     <Compile Include="CustTransaction.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
     <Compile Include="fn_ShowTransactionHistory_Result.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SomeBankDB.Context.cs">
+    <Compile Include="SomeBank.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SomeBankDB.Context.tt</DependentUpon>
+      <DependentUpon>SomeBank.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="SomeBankDB.cs">
+    <Compile Include="SomeBank.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
-    <Compile Include="SomeBankDB.Designer.cs">
+    <Compile Include="SomeBank.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>SomeBankDB.edmx</DependentUpon>
+      <DependentUpon>SomeBank.edmx</DependentUpon>
     </Compile>
     <Compile Include="TransferMoney.cs">
-      <DependentUpon>SomeBankDB.tt</DependentUpon>
+      <DependentUpon>SomeBank.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
-    <EntityDeploy Include="SomeBankDB.edmx">
+    <EntityDeploy Include="SomeBank.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>SomeBankDB.Designer.cs</LastGenOutput>
+      <LastGenOutput>SomeBank.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <None Include="SomeBankDB.edmx.diagram">
-      <DependentUpon>SomeBankDB.edmx</DependentUpon>
+    <None Include="SomeBank.edmx.diagram">
+      <DependentUpon>SomeBank.edmx</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="EntityFrameworkNotesWithDBFirstSteps.txt" />
     <Content Include="SomeBankDB.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SomeBankDB.edmx</DependentUpon>
-      <LastGenOutput>SomeBankDB.Context.cs</LastGenOutput>
+      <DependentUpon>SomeBank.edmx</DependentUpon>
+      <LastGenOutput>SomeBank.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="SomeBankDB.tt">
+    <Content Include="SomeBank.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>SomeBankDB.edmx</DependentUpon>
-      <LastGenOutput>SomeBankDB.cs</LastGenOutput>
+      <DependentUpon>SomeBank.edmx</DependentUpon>
+      <LastGenOutput>SomeBank.cs</LastGenOutput>
     </Content>
   </ItemGroup>
   <ItemGroup>

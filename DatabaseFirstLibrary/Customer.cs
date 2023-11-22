@@ -25,6 +25,8 @@ namespace DatabaseFirstLibrary
         public int Custid { get; set; }
         public string Custname { get; set; }
         public string City { get; set; }
+        public string State { get; set; }
+        public string Country { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<CustTransaction> CustTransactions { get; set; }
